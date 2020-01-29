@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      
+        <!-- <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"> -->
+        <link rel="stylesheet" href="css\index.css" type="text/css">
+        <link rel="stylesheet" href="css\topstyle.css">
+        <script  src="C:\Users\ARUNDHATI\Desktop\price comparison\js\modal.js"></script>
+
+    </head>
+<body>
+    <center><h3><b> PRICE PERFECT</b> </h3></center>
+   
+    <br class="header-section">
+        <div class="topnav">
+<a class="active" href="#home">Home</a>
+<a href="#" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">LOGIN</a>
+
+                <div id="id01" class="modal1">
+
+                <form class="modal-content animate" action="/action_page.php" method="post">
+                <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <img src="C:\Users\ARUNDHATI\Desktop\price comparison\img\avtarimg.png" alt="" class="avatar">
+                </div>
+
+                <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+                <br>
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+                <br>
+                <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+
+                <button class="button1" type="submit">Login</button>
+
+                </div>
+
+                </form>
+                </div>
+
+
+                <a href="#" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">SIGNUP</a>
+
+                <div id="id02" class="modal1">
+                    <form class="modal-content animate"  method="post">
+                        <span onclick="document.getElementById('id02').style.display='none'" class="closesignup" title="Close Modal">&times;</span>
+
+                        <div class="container1">
+                        <center><h1>Sign Up</h1>
+                        <p>Please fill in this form to create an account.</p></center>
+                        <hr>
+                        <label for="email"><b>Email</b></label><br>
+                        <input type="text" placeholder="Enter Email" name="email" required>
+<br>
+                        <label for="psw"><b>Password</b></label><br>
+                        <input type="password" placeholder="Enter Password" id="pp" name="psw" required>
+<br>
+                        <label for="psw-repeat"><b>Repeat Password</b></label><br>
+                        <input type="password" placeholder="Repeat Password" id="rp" name="psw-repeat" required>
+<br>
+                        <label>
+                        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                        </label>
+
+
+                        <div class="clearfix">
+                        <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtnsignup">Cancel</button>
+                        <button type="submit" onclick="test_str()" class="signupbtn">Sign Up</button>
+                        </div>
+                        </div>
+                        </form>
+
+                    </div>
+
+                <a href="#shop">SHOP</a>
+                <a href="#pages">PAGES</a>
+<a href="#contact">CONTACT</a>
+<a href="#about">ABOUT</a>
+
+</div>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+      <img src="C:\Users\ARUNDHATI\Desktop\price comparison\img\poo.jfif" style="width:100%">
+  </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="C:\Users\ARUNDHATI\Desktop\price comparison\img\boo.jfif" style="width:100% ">
+      </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="C:\Users\ARUNDHATI\Desktop\price comparison\img\pic3.jpg" style="width:100%">
+      </div>
+
+<br>
+<div style="text-align:center">
+<span class="dot"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+</div>
+</div>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+    <div class=banner-section spad>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="single-banner">
+                        <img src="C:\Users\ARUNDHATI\Desktop\price comparison\img\gad.jfif" height="330px" width="50%" alt="">
+                        <div class="inner-text">
+                            <h4>Electronics</h4>
+                        </div>
+                </div>
+            </div>
+                <div class="col-lg-4">
+                    <div class="single-banner">
+                        <img src="C:\Users\ARUNDHATI\Desktop\price comparison\img\banner-1.jpg" alt="">
+                        <div class="inner-text">
+                            <h4>Clothing</h4>
+                        </div>
+                </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-banner">
+                        <img src="C:\Users\ARUNDHATI\Desktop\price comparison\img\book.jfif" height="330px" width="50%" alt="">
+                        <div class="inner-text">
+                            <h4>Books</h4>
+                        </div>
+                </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <section class="women-banner spad">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="product-large set-bg" >
+                        <img src="C:\Users\ARUNDHATI\Desktop\price comparison\img\photo.jfif" height="100%" width="110%">
+                        <div class="inner-text">
+                        <h4>Electronics</h4>
+                        <!-- <a href="#">Discover More</a> -->
+                    </div>
+                    </div>
+                </div>
+
+                <div class=" side col-lg-8 offset-lg-1">
+                    <div class="filter-control">
+                        <ul>
+                            <li class="active">Laptops</li>
+                            <li>Mobiles</li>
+                            <li>TV</li>
+                            <li>Smart watches</li>
+                        </ul>
+                    </div>
+                    <div class="product-item">
+                        <div class="pi-pic">
+                    <div class="col-lg-4" id="lap">
+                        <img src="C:\Users\ARUNDHATI\Desktop\price comparison\img\lap1.jpg" alt="">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="C:\Users\ARUNDHATI\Desktop\price comparison\img\mob1.jpg" alt="">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="C:\Users\ARUNDHATI\Desktop\price comparison\img\watch1.jpg" alt="">
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="women-banner spad">
+        <div class="container-fluid">
+            <div class="row">
+                
+
+                <div class=" side2 col-lg-8 offset-lg-1">
+                    <div class="filter-control">
+                        <ul>
+                            <li class="active">Clothings</li>
+                            <li>HandBag</li>
+                            <li>Shoes</li>
+                            <li>Accessories</li>
+                        </ul>
+                    </div>
+                    <div class="product-item">
+                        <div class="pi-pic">
+                    <div class="col-lg-4">
+                        <img src="C:\Users\ARUNDHATI\Desktop\price comparison\img\women-1.jpg" alt="">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="C:\Users\ARUNDHATI\Desktop\price comparison\img\women-2.jpg" alt="">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="C:\Users\ARUNDHATI\Desktop\price comparison\img\women-3.jpg" alt="">
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="product-large set-bg" >
+                    <img src="C:\Users\ARUNDHATI\Desktop\price comparison\img\women-large.jpg">
+                    <div class="inner-text">
+                    <h4>Women’s</h4>
+                    <!-- <a href="#">Discover More</a> -->
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="women-banner spad">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="product-large set-bg" >
+                        <img src="C:\Users\ARUNDHATI\Desktop\price comparison\img\man-large.jpg">
+                        <div class="inner-text">
+                        <h4>Men's</h4>
+                        <!-- <a href="#">Discover More</a> -->
+                    </div>
+                    </div>
+                </div>
+
+                <div class=" side col-lg-8 offset-lg-1">
+                    <div class="filter-control">
+                        <ul>
+                            <li class="active">Clothings</li>
+                            <li>Travel bags</li>
+                            <li>Shoes</li>
+                            <li>Accessories</li>
+                        </ul>
+                    </div>
+                    <div class="product-item">
+                        <div class="pi-pic">
+                    <div class="col-lg-4">
+                        <img src="C:\Users\ARUNDHATI\Desktop\price comparison\img\man-3.jpg" alt="">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="C:\Users\ARUNDHATI\Desktop\price comparison\img\man-4.jpg" alt="">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="C:\Users\ARUNDHATI\Desktop\price comparison\img\product-8.jpg" alt="">
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="women-banner spad">
+        <div class="container-fluid">
+            <div class="row">
+                
+
+                <div class=" side col-lg-8 offset-lg-1">
+                    <div class="filter-control">
+                        <ul>
+                            <li class="active">Fiction</li>
+                            <li>Non-Fiction</li>
+                            <li>Biography</li>
+                            <li>Motivational</li>
+                        </ul>
+                    </div>
+                    <div class="product-item">
+                        <div class="pi-pic">
+                    <div class="col-lg-4">
+                        <img src="C:\Users\ARUNDHATI\Desktop\price comparison\img\book1.jpg"   alt="">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="C:\Users\ARUNDHATI\Desktop\price comparison\img\book2.jpg" alt="">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="C:\Users\ARUNDHATI\Desktop\price comparison\img\book4.jpg"alt="">
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="product-large set-bg" >
+                    <img src="C:\Users\ARUNDHATI\Desktop\price comparison\img\book3.jpg">
+                    <div class="inner-text">
+                    <h4>Books</h4>
+                    <!-- <a href="#">Discover More</a> -->
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="about-section">
+  <h1>About Us Page</h1>
+  <p>PRICE COMPARISON.</p>
+  <p>price comparison website is a vertical search engine that shoppers use to filter and compare products based on price, features, reviews and other criteria..</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row" id="contact">
+  <div class="column">
+    <div class="card" style="margin-left: 20px;">
+      <img src="C:\Users\ARUNDHATI\Desktop\price comparison\img\about.jpg" alt="abc" style="width:100%">
+      <div class="container2">
+        <h2>Abc ghi</h2>
+        <p class="title">CEO & Founder</p>
+        <p>I am abc the CEO of the company .</p>
+        <p>abc@example.com</p>
+        <p><button class="buttona">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="C:\Users\ARUNDHATI\Desktop\price comparison\img\about.jpg" alt="def" style="width:100%">
+      <div class="container2">
+        <h2>Def jkl</h2>
+        <p class="title">Art Director</p>
+        <p>I am def the Art Director of the company .</p>
+        <p>def@example.com</p>
+        <p><button class="buttona">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="C:\Users\ARUNDHATI\Desktop\price comparison\img\about.jpg" alt="ghi" style="width:100%">
+      <div class="container2">
+        <h2>xyz cdf</h2>
+        <p class="title">Designer</p>
+        <p>I am xyz the DESIGNER at this company ..</p>
+        <p>xyz@example.com</p>
+        <p><button class="buttona">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+<script>
+    showSlides()
+    </script>
+    <script type="text/javascript">
+        document.getElementById("lap").onclick = function () {
+            location.href = "second.html";
+        };
+    </script>
+</html>
+
